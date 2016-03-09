@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>add_alertController</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIAlertController *alert = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+UIAlertAction *action0 = [UIAlertAction actionWithTitle:@"yes" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    NSLog(@"%s",__func__);
+}];
+[alert addAction:action0];
+UIAlertAction *action1 = [UIAlertAction actionWithTitle:@"no" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    NSLog(@"%s",__func__);
+}];
+[alert addAction:action1];
+UIAlertAction *action2 = [UIAlertAction actionWithTitle:@"cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+    NSLog(@"%s",__func__);
+}];
+[alert addAction:action2];
+[self presentViewController:alert animated:YES completion:nil];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1698E766-E1AC-40DD-BAC2-A7FCCC92BB9E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>add_alertController</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

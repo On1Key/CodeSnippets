@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>add_textField</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UITextField *textField = [[UITextField alloc] init];
+    textField.frame = CGRectZero;
+    textField.placeholder = @"占位文字";
+    textField.font = [UIFont systemFontOfSize:14];
+    textField.textColor = [UIColor blackColor];
+    [self.view addSubview:textField];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>989646E3-CBC8-4879-8E0E-0DB50EDAE252</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>add_textField</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
