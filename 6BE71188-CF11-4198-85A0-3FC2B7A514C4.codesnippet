@@ -13,6 +13,7 @@
     button.frame = CGRectZero;
     button.backgroundColor = [UIColor lightGrayColor];
     [button setTitle:@"button" forState:UIControlStateNormal];
+    button.titleLabel.font = [UIFont systemFontOfSize:14];
     [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [button setImage:nil forState:UIControlStateNormal];
     [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
