@@ -10,11 +10,13 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>UITextField *textField = [[UITextField alloc] init];
-    textField.frame = CGRectZero;
-    textField.placeholder = @"占位文字";
-    textField.font = [UIFont systemFontOfSize:14];
-    textField.textColor = [UIColor blackColor];
-    [self.view addSubview:textField];</string>
+textField.frame = CGRectZero;
+textField.placeholder = @"占位文字";
+textField.font = [UIFont systemFontOfSize:14];
+textField.textColor = [UIColor blackColor];
+textField.backgroundColor = [UIColor lightGrayColor];
+textField.clearButtonMode = UITextFieldViewModeWhileEditing;
+[self.view addSubview:textField];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>989646E3-CBC8-4879-8E0E-0DB50EDAE252</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -15,6 +15,7 @@
         label.text = @"label";
         label.font = [UIFont systemFontOfSize:14];
         label.textColor = [UIColor blackColor];
+        label.numberOfLines = 0;
         label.textAlignment = NSTextAlignmentCenter;
         [self.view addSubview:label];</string>
 	<key>IDECodeSnippetIdentifier</key>
