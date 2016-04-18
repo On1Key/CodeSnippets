@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>add_delegate</string>
+	<string>add_///</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) id&lt;&lt;#delegate#&gt;&gt; delegate;</string>
+	<string>/**&lt;#注释#&gt;*/</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E54C0551-9C3E-4406-AA65-AF70F5D2F4B6</string>
+	<string>46E7EC4F-013F-4EDB-A04D-BDB3EA732354</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>add_delegate</string>
+	<string>add_///</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
