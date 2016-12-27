@@ -6,7 +6,7 @@
 	<string>add_tableView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)setUpUI{
@@ -42,6 +42,7 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSLog(@"%s",__func__);
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>457C5B4B-9CAD-4159-B964-75D9D7DBA827</string>

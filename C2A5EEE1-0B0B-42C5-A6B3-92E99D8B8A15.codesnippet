@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"%s",__func__);</string>
+	<string>NSLog(@"\n------------------%d------------------\n%s",__LINE__,__func__);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C2A5EEE1-0B0B-42C5-A6B3-92E99D8B8A15</string>
 	<key>IDECodeSnippetLanguage</key>

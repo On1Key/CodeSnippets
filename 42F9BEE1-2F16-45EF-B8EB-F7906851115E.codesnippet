@@ -9,7 +9,8 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#blcok#&gt; &lt;#blcok#&gt;;</string>
+	<string>/**&lt;#注释#&gt;*/
+@property (nonatomic, copy) &lt;#blcok#&gt; &lt;#blcok#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>42F9BEE1-2F16-45EF-B8EB-F7906851115E</string>
 	<key>IDECodeSnippetLanguage</key>
